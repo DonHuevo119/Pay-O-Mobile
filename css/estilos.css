@@ -53,6 +53,7 @@ body {
     color: white;
     transform: rotate(-70deg);
 }
+
 .circulo2 {
     position: fixed;
     border-radius: 100%;
@@ -63,8 +64,9 @@ body {
     top: -10%;
     background-color: #F2D492;
     color: white;
-    transform: rotate(0deg);
+    animation-delay: .3s;
 }
+
 .circulo3 {
     position: fixed;
     border-radius: 100%;
@@ -75,7 +77,7 @@ body {
     top: +5%;
     background-color: #F29559;
     color: white;
-    transform: rotate(0deg);
+    animation-delay: .6s;
 }
 
 @media (max-width: 800px) {
