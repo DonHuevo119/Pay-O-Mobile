@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Comida</title>
@@ -17,47 +17,102 @@
         <div class="circulo2 animate__animated animate__pulse"></div>
         <div class="circulo3 animate__animated animate__pulse"></div>
     </div>
-    <div class="container animate__animated animate__fadeIn">
-        <div class="iconos">
-            <a class="c-black" href="menu.html"><i class="bi bi-arrow-return-left"></i></a>
-            <a href="alergias.html"><i class="bi bi-info-circle"></i></a>
+    <div class="container animate__animated animate__fadeIn" style="margin: 0;">
+        <header class="fixed-top FFD1A4 position-fixed">
+            <div class="iconos d-flex justify-content-between m-4 fs-7">
+                <a class="c-black" href="menu.html"><i class="bi bi-arrow-return-left"></i></a>
+                <a href="alergias.html"><i class="bi bi-info-circle"></i></a>
+            </div>
+            <div class="titulo2 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fs-0 mb-0">Elegido para ti</h1>
+                <img class="" src="img/Separador-texto-blog.png" alt="" height="10" width="">
+            </div>
+        </header>
+
+        <!-- Ejemplos de comida -->
+
+        <div class="mt-10 m-3 mb-10 w-100">
+            <div class="categoria mb-3">
+                <h1>Comida</h1>
+            </div>
+            <div class="itemComida d-flex justify-content-between border-bottom mb-3" onclick="visuaComida()">
+                <div class="descript d-flex flex-column">
+                    <strong>Paella</strong>
+                    <p><strong>2.35 €</strong></p>
+                    <p>Paella valenciana auténtica bla bla bla bla lorem ipsum...</p>
+                </div>
+                <div class="" style="height: 100%;">
+                    <img src="img/paella.png" alt="" height="125" width="125">
+                </div>
+            </div>
+
+            <div class="itemComida d-flex justify-content-between border-bottom mb-3">
+                <div class="descript d-flex flex-column">
+                    <strong>Paella</strong>
+                    <p><strong>2.35 €</strong></p>
+                    <p>Paella valenciana auténtica bla bla bla bla lorem ipsum...</p>
+                </div>
+                <div class="" style="height: 100%;">
+                    <img src="img/paella.png" alt="" height="125" width="125">
+                </div>
+            </div>
+
+            <div class="itemComida d-flex justify-content-between border-bottom mb-3">
+                <div class="descript d-flex flex-column">
+                    <strong>Un javier salvaje</strong>
+                    <p><strong>2.35 €</strong></p>
+                    <p>Paella valenciana auténtica bla bla bla bla lorem ipsum...</p>
+                </div>
+                <div class="" style="height: 100%;">
+                    <img src="img/paella.png" alt="" height="125" width="125">
+                </div>
+            </div>
+
+            <div class="categoria mb-3">
+                <h1>Bebida</h1>
+            </div>
+
+            <div class="itemComida d-flex justify-content-between border-bottom mb-3">
+                <div class="descript d-flex flex-column">
+                    <strong>Paella</strong>
+                    <p><strong>2.35 €</strong></p>
+                    <p>Paella valenciana auténtica bla bla bla bla lorem ipsum...</p>
+                </div>
+                <div class="" style="height: 100%;">
+                    <img src="img/cocacola.png" alt="" height="125" width="125">
+                </div>
+            </div>
+
+            <div class="itemComida d-flex justify-content-between border-bottom mb-3">
+                <div class="descript d-flex flex-column">
+                    <strong>Paella</strong>
+                    <p><strong>2.35 €</strong></p>
+                    <p>Paella valenciana auténtica bla bla bla bla lorem ipsum...</p>
+                </div>
+                <div class="" style="height: 100%;">
+                    <img src="img/cocacola.png" alt="" height="125" width="125">
+                </div>
+            </div>
+
+            <div class="itemComida d-flex justify-content-between border-bottom mb-3">
+                <div class="descript d-flex flex-column">
+                    <strong>Paella</strong>
+                    <p><strong>2.35 €</strong></p>
+                    <p>Paella valenciana auténtica bla bla bla bla lorem ipsum...</p>
+                </div>
+                <div class="" style="height: 100%;">
+                    <img src="img/cocacola.png" alt="" height="125" width="125">
+                </div>
+            </div>
+
         </div>
-        <div class="titulo mb-5 d-flex flex-column fixed-top justify-content-center align-items-center">
-            <h1 class="fs-0 mb-0">Comida</h1>
-            <img class="" src="img/Separador-texto-blog.png" alt="" height="50" width="600">
-        </div>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div class="item1">
-                
-            </div>
-            <div class="item2">
 
-            </div>
-            <div class="item3">
-
-            </div>
-            <div class="item4">
-
-            </div>
-            <div class="item5">
-
-            </div>
-            <div class="item6">
-
-            </div>
-            <div class="item7">
-
-            </div>
-            <div class="item8">
-
-            </div>
-        </div>
-
-        <div class="abajo d-flex flex-column align-items-center justify-content-center fixed-bottom">
-            <img class="m-0" src="img/Separador-texto-blog.png" alt="" height="50" width="600">
-            <button class="btn btn-primary w-100 p-4">Confirmar</button>
+        <div class="abajo d-flex flex-row align-items-center justify-content-center position-fixed fixed-bottom">
+            <button class="btn btn-primary w-100 p-4 border" style="border-radius: 0 !important;">Ver carro</button>
+            <button class="btn btn-primary w-100 p-4 border" style="border-radius: 0 !important;">Confirmar</button>
         </div>
     </div>
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

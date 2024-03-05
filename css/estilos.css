@@ -37,6 +37,14 @@ body {
     margin-top: 5em;
 }
 
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #202C39;
+    margin-top: 0em;
+}
+
 .titulo h1 {
     font-size: 3em;
 }

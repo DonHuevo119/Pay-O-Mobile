@@ -7714,6 +7714,10 @@ textarea.form-control-lg {
   min-width: 100vw !important;
 }
 
+.h-10 {
+  height: 10% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -8038,6 +8042,10 @@ textarea.form-control-lg {
 
 .mt-5 {
   margin-top: 3rem !important;
+}
+
+.mt-10 {
+  margin-top: 20vh !important;
 }
 
 .mt-auto {
@@ -8420,6 +8428,10 @@ textarea.form-control-lg {
 
 .fs-6 {
   font-size: 1rem !important;
+}
+
+.fs-7 {
+  font-size: 2em !important;
 }
 
 .fst-italic {
@@ -8877,6 +8889,10 @@ textarea.form-control-lg {
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.FFD1A4 {
+  background-color: #FFD1A4;
 }
 
 .bg-body {
