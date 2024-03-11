@@ -1,3 +1,7 @@
-function visuaComida(){
+function visuaComida() {
     location.href = "visuaComida.html"
+}
+
+function goBack() {
+    window.history.go(-1);
 }
